@@ -42,15 +42,11 @@ cd Mnist-CNN---tkinter-GUI
 ```bash
 pip install torch torchvision pillow numpy
 ```
-3. Install the Mnist dataset provided by Pythorch into the working directory
-```bash
-python dataset.py
-```
-4. training model
+3. training model
 ```bash
 python train.py -batch_size 64 --epochs 500 --augment --cuda ...
 ```
-5. running
+4. running
 ```bash
 python predict_gui.py
 ```
